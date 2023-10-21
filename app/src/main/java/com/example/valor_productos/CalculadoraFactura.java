@@ -5,7 +5,6 @@ public class CalculadoraFactura {
         return cantidad * costoUnitario;
     }
     public double calcularTotalConImpuestos(int totalNeto) {
-        // Supongamos que el IVA es del 10%
         int iva = 19;
         return totalNeto + calcularIva(totalNeto, iva);
     }
